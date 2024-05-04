@@ -1,0 +1,158 @@
+{
+    "easy": [
+        {
+            "question": "What is the output of the following code?\nprint(2 + 3 * 5)",
+            "options": [
+                "10",
+                "25",
+                "17",
+                "None of the above"
+            ],
+            "answer": "3"
+        },
+        {
+            "question": "Which of the following is not a Python data type?",
+            "options": [
+                "int",
+                "str",
+                "list",
+                "float"
+            ],
+            "answer": "3"
+        },
+        {
+            "question": "What is the correct way to create a function in Python?",
+            "options": [
+                "define function my_function():",
+                "def my_function():",
+                "function my_function():",
+                "func my_function():"
+            ],
+            "answer": "2"
+        },
+        {
+            "question": "What is the result of the expression 10 % 3?",
+            "options": [
+                "3",
+                "1",
+                "0",
+                "10"
+            ],
+            "answer": "2"
+        },
+        {
+            "question": "Which keyword is used to define a function in Python?",
+            "options": [
+                "def",
+                "function",
+                "define",
+                "fun"
+            ],
+            "answer": "1"
+        }
+    ],
+    "moderate": [
+        {
+            "question": "What is the output of the following code?\nprint('Hello' * 3)",
+            "options": [
+                "HelloHelloHello",
+                "Hello Hello Hello",
+                "Hello\nHello\nHello",
+                "Hello3"
+            ],
+            "answer": "1"
+        },
+        {
+            "question": "What is the purpose of 'elif' in Python?",
+            "options": [
+                "To indicate the end of a loop",
+                "To check another condition if the previous one is False",
+                "To create a new variable",
+                "To print 'elif'"
+            ],
+            "answer": "2"
+        },
+        {
+            "question": "What does the 'range' function in Python do?",
+            "options": [
+                "Generate a list of numbers",
+                "Return a list containing numbers from 0 to n-1",
+                "Return a list of even numbers",
+                "Return a list of odd numbers"
+            ],
+            "answer": "2"
+        },
+        {
+            "question": "What is the correct way to import a module named 'math' in Python?",
+            "options": [
+                "import math",
+                "include math",
+                "from math import *",
+                "use math"
+            ],
+            "answer": "1"
+        },
+        {
+            "question": "What is the output of the following code?\nx = [1, 2, 3]\nprint(x[1:])",
+            "options": [
+                "[2, 3]",
+                "[1, 2]",
+                "[1, 2, 3]",
+                "2"
+            ],
+            "answer": "1"
+        }
+    ],
+    "hard": [
+        {
+            "question": "What is the output of the following code?\nprint(3 == '3')",
+            "options": [
+                "True",
+                "False",
+                "TypeError",
+                "SyntaxError"
+            ],
+            "answer": "2"
+        },
+        {
+            "question": "What does the 'with' statement do in Python?",
+            "options": [
+                "Opens a file and guarantees its closure",
+                "Creates a new instance of a class",
+                "Returns a boolean value",
+                "Executes a block of code repeatedly"
+            ],
+            "answer": "1"
+        },
+        {
+            "question": "What is the purpose of the 'lambda' function in Python?",
+            "options": [
+                "To define a new class",
+                "To create a function without a name",
+                "To import external libraries",
+                "To handle exceptions"
+            ],
+            "answer": "2"
+        },
+        {
+            "question": "What does the 'map' function do in Python?",
+            "options": [
+                "Applies a function to every item of an iterable",
+                "Creates a dictionary",
+                "Finds the maximum value in a list",
+                "Sorts a list"
+            ],
+            "answer": "1"
+        },
+        {
+            "question": "What is the output of the following code?\nprint(list(map(lambda x: x * 2, [1, 2, 3, 4])))",
+            "options": [
+                "[2, 4, 6, 8]",
+                "[1, 2, 3, 4]",
+                "[1, 2, 4, 8]",
+                "[2, 4, 8, 16]"
+            ],
+            "answer": "1"
+        }
+    ]
+}
